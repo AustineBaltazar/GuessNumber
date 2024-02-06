@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: row-reverse;
+}
+
+.truth-list {
+  background-color: green;
+}
+
+.failed-list {
+  background-color: gray;
+  color: rgb(216, 201, 201);
+}
